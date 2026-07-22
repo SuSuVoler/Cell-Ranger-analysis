@@ -21,6 +21,9 @@ transfer the reference to urblauna
 ```
 cp -r /work/PRTNR/CHUV/MED/cpich/5g-fr2/refdata-gex-GRCh38-2020-A \
   /data/PRTNR/CHUV/MED/cpich/5g-fr2
+
+ cp -r ~/refdata-gex-GRCh38-2020-A \
+  /work/PRTNR/CHUV/MED/cpich/5g-fr2/
 ```
 use filezilla to transfer probe_Sets, fastqs...
 the final structure should look like this:
