@@ -1,5 +1,17 @@
+# login with urblauna account
+UNIL password and the 2FA code
+```
+ssh zsu@u-ssh.dcsr.unil.ch
+```
+
 # Structure de dossiers in urblauna
 ```
+# Télécharger directement dans /data/
+cd /data/PRTNR/CHUV/MED/cpich/5g-fr2/cellranger/references/
+wget https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2020-A.tar.gz
+tar -xzvf refdata-gex-GRCh38-2020-A.tar.gz
+# use filezilla to transfer probe_Sets, fastqs...
+
 /data/PRTNR/CHUV/MED/cpich/5g-fr2/CellRanger/
 ├── references/
 │   └── refdata-gex-GRCh38-2020-A/    ← génome de référence
