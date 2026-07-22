@@ -1,0 +1,15 @@
+# Structure de dossiers in urblauna
+'''
+/data/PRTNR/CHUV/MED/cpich/5g-fr2/CellRanger/
+├── references/
+│   └── refdata-gex-GRCh38-2020-A/    ← génome de référence
+├── probe_sets/
+│   └── Chromium_Human_Probe_Set.csv   ← sondes Flex
+├── fastqs/
+│   └── Flex_run1/
+│       ├── Sample1_S1_L001_R1_001.fastq.gz
+│       └── Sample1_S1_L001_R2_001.fastq.gz
+├── config.csv                         ← ton fichier de config
+└── output/
+    └── Flex_run1/                     ← résultats CellRanger
+'''
