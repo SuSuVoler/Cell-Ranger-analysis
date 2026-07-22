@@ -1,5 +1,5 @@
 # Structure de dossiers in urblauna
-'''
+```
 /data/PRTNR/CHUV/MED/cpich/5g-fr2/CellRanger/
 ├── references/
 │   └── refdata-gex-GRCh38-2020-A/    ← génome de référence
@@ -12,4 +12,4 @@
 ├── config.csv                         ← ton fichier de config
 └── output/
     └── Flex_run1/                     ← résultats CellRanger
-'''
+```
