@@ -72,7 +72,7 @@ Flex_run1/
 For multiplexed Flex, each sample has its own matrix under per_sample_outs/.
 
 Step 5. Load into Seurat
-```R
+```{r}
 library(Seurat)
 
 counts <- Read10X(
