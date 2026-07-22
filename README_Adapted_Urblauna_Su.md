@@ -13,6 +13,7 @@ wget https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2020-A.tar.gz
 tar -xzvf refdata-gex-GRCh38-2020-A.tar.gz
 ```
 use filezilla to transfer probe_Sets, fastqs...
+the final structure should look like this:
 ```
 /data/PRTNR/CHUV/MED/cpich/5g-fr2/CellRanger/
 ├── references/
