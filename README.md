@@ -19,6 +19,7 @@ The probe set CSV is distributed with Cell Ranger (or available from 10x Genomic
 Step 2. Create the config CSV
 Multiplex Flex
 If multiple samples were hybridized with different probe barcodes before pooling, you also need a [samples] section, for example:
+```
 [gene-expression]
 reference,/data/refdata-gex-GRCh38-2024-A
 probe-set,/data/Chromium_Human_Transcriptome_Probe_Set_v2.0_GRCh38.csv
@@ -31,6 +32,7 @@ P01,BC001,Patient1
 P02,BC002,Patient2
 P03,BC003,Patient3
 The exact barcode IDs depend on the probe barcode plate you used.
+```
 
 Step 3. Run Cell Ranger
 ```bash
