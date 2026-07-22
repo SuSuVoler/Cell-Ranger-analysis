@@ -31,8 +31,8 @@ sample_id,probe_barcode_ids,description
 P01,BC001,Patient1
 P02,BC002,Patient2
 P03,BC003,Patient3
-The exact barcode IDs depend on the probe barcode plate you used.
 ```
+The exact barcode IDs depend on the probe barcode plate you used.
 
 Step 3. Run Cell Ranger
 ```bash
