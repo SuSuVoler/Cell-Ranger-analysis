@@ -6,11 +6,21 @@ ssh zsu@u-ssh.dcsr.unil.ch
 
 # Structure de dossiers in urblauna
 
-Télécharger directement dans /data/
+Télécharger directement dans /data/ 
+I don't have acess to internet with urblauna, solution: télécharger in curnagl, then copy to urblauna
+
+login with curnagl account, UNIL password
 ```
-cd /data/PRTNR/CHUV/MED/cpich/5g-fr2/cellranger/references/
+ssh zsu@curnagl.dcsr.unil.ch
+cd /work/PRTNR/CHUV/MED/cpich/5g-fr2/
 wget https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2020-A.tar.gz
 tar -xzvf refdata-gex-GRCh38-2020-A.tar.gz
+```
+
+transfer the reference to urblauna
+```
+cp -r /work/PRTNR/CHUV/MED/cpich/5g-fr2/refdata-gex-GRCh38-2020-A \
+  /data/PRTNR/CHUV/MED/cpich/5g-fr2
 ```
 use filezilla to transfer probe_Sets, fastqs...
 the final structure should look like this:
